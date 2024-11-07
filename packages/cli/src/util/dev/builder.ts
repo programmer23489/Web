@@ -17,7 +17,7 @@ import {
 } from '@vercel/build-utils';
 import { isStaticRuntime } from '@vercel/fs-detectors';
 import plural from 'pluralize';
-import minimatch from 'minimatch';
+import { minimatch } from 'minimatch';
 
 import highlight from '../output/highlight';
 import { treeKill } from '../tree-kill';
